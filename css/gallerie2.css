@@ -44,24 +44,3 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
-
-.container-next{
-    text-align: center;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-.container-next div {
-    background-color: orange;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-}
-
-.container-next div a{
-    text-decoration: none;
-    color: white;
-}

@@ -43,3 +43,13 @@ body{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
+.container-next{
+    text-align: center;
+    height: 50px;
+}
+
+.container-next div {
+    background-color: orange;
+    width: ;
+}

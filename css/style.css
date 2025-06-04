@@ -509,6 +509,7 @@ li .don{
     width: 40%;
     height: auto;
     text-align: center;
+    border-radius: 10px;
 }
 
 .info-evenemet p{
@@ -535,6 +536,9 @@ li .don{
 .btn1 {
     height: 30px;
     background-color: rgba(39, 38, 37, 0.616);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .btn1 a {
@@ -548,7 +552,6 @@ li .don{
     background-color: #ffc107;
     color: white;
     border: none;
-    padding: 1px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -560,12 +563,11 @@ li .don{
     padding: 10px;
     background-image: url(/image/children-s-day-celebration-with-cute-kid-portrait\ \(1\).jpg);
     background-size: cover;
-    flex-wrap: wrap;
-    
+    background-repeat: no-repeat;    
 }
 
 .publicite div img{
-    width: 80px;
+    width: 100px;
 }
 
 .nouvelle{

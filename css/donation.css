@@ -107,7 +107,7 @@ input[type="text"] {
 }
 
 input[type="radio"] {
-    accent-color: #e74c3c;
+    accent-color:orange;
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -130,7 +130,7 @@ input[type="radio"] {
 
 /* BUTTONS */
 button {
-    background-color: #e74c3c;
+    background-color: orange;
     color: white;
     padding: 10px 20px;
     border: none;

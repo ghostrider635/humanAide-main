@@ -31,6 +31,20 @@ header{
     color: orange;
 }
 
+.menu-casher{
+    display: none;   
+}
+.menu-casher button{
+    display: flex;
+    width: 50px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0a800;
+    border: none;
+    border-radius: 4px;    
+}
+
 .menu-nav{
     display: flex;
     list-style: none;
@@ -71,14 +85,13 @@ ul .acceuil{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .slogan-acceuil{
     font-size: 50px;
     color: white;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 300px;
     width: 100%;
 }
 
@@ -103,11 +116,13 @@ ul .acceuil{
 .container-bouton-acceuil{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+    
 }
 
 .container-bouton-acceuil ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;  
     
 }
@@ -705,4 +720,46 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 886px){
+    .logo{
+        font-size: 18px;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+
+    .menu-casher{
+        display: flex;
+    }
+    
+    .slogan-acceuil{
+        font-size: 22px;
+    }
+    .p-accueil{
+        font-size: 19px;
+    }
+
+    .container-hero h6{
+        font-size: 15px;
+        font-weight: 1;
+    }
+
+    .container-bouton-acceuil ul{
+        flex-direction: column;
+        margin-bottom: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-cause{
+        flex-direction: column;
+    }
+
+    .donation-section{
+        width: 100%;
+    }
 }

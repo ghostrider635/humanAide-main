@@ -727,6 +727,7 @@ footer{
 }
 
 @media (max-width: 886px){
+    
     .logo{
         font-size: 18px;
     }
@@ -742,7 +743,7 @@ footer{
     .container-hero{
         flex-direction: column;
         align-items: center;
-        mar
+        margin: 10px;
     }
     .slogan-acceuil{
         font-size: 22px;

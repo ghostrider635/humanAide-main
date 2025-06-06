@@ -762,4 +762,12 @@ footer{
     .donation-section{
         width: 100%;
     }
+    .container-element-evenement{
+        flex-direction: column;
+        align-items: center;
+    }
+    .element1{
+        width: 90%;
+        height: auto;
+    }
 }

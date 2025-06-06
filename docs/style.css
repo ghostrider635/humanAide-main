@@ -77,7 +77,7 @@ ul .acceuil{
 }
 
 .hero{
-    background-image: url(/docs/image/pexels-ahmed-akacha-3313934-9993429.jpg);
+    background-image: url(image/pexels-ahmed-akacha-3313934-9993429.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -576,7 +576,7 @@ li .don{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-image: url(/docs/image/young-african-children-outdoor.jpg);
+    background-image: url(image/young-african-children-outdoor.jpg);
     background-size: cover;
     background-repeat: no-repeat;    
 }

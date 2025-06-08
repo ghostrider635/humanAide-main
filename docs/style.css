@@ -686,6 +686,8 @@ form{
     width: 40%;
     border:  none;
     border-bottom: 1px solid #000000;
+    resize: none;
+    overflow: auto;
     
 }
 
@@ -801,7 +803,9 @@ footer{
        margin: 10px;
     }
 
-    .team .con
+    .donation-section img{
+     border-radius: 60px;
+    }
 
     .donation-section{
         width: 100%;
@@ -845,21 +849,26 @@ footer{
 
     .container-body-contact .container-form-contact{
         width: 100%;
-        justify-content: center;
+        
     }
     .container-body-contact .container-info-contact{
         width: 100%;
-        justify-content: center;
     }
 
-    .container-form-contact form{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .form1 {
+        display: block;
+
     }
+    
    .form1 input{
-        width: 130px;
+        width: 400px;
+        margin-top: 30px;
+
+   }
+
+   .container-info-contact{
+    margin-top: 30px;
+    
    }
    
    

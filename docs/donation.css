@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* GLOBAL */
+/*GLOBAL*/
 body {
     background-color: #f9f9f9;
     color: #333;
@@ -14,7 +14,7 @@ body {
 }
 
 h1 span {
-    color:orange;
+    color:orange; 
 }
 
 .container-header {
@@ -45,6 +45,26 @@ h1 span {
     color: #666;
 }
 
+.container-back{
+    text-align: center;
+    height: 30px;
+    display: flex;
+    margin: 20px 0;
+}
+
+.container-back {
+    background-color: orange;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-back a{
+    text-decoration: none;
+    color: white;
+}
 /* FORM STRUCTURE */
 form {
     background-color: #fff;

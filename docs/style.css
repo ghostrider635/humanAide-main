@@ -76,6 +76,10 @@ ul .acceuil{
     
 }
 
+.nav-bar-active{
+    display: none;
+}
+
 .hero{
     background-image: url(image/pexels-ahmed-akacha-3313934-9993429.jpg);
     background-repeat: no-repeat;
@@ -761,6 +765,17 @@ footer{
         display: flex;
         justify-content: left;
     }
+
+    .nav-bar-active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.753);
+        padding: 10px;
+    }
     
     .hero{
         display: none;
@@ -775,7 +790,7 @@ footer{
         margin: 10px;
     }
     .slogan-acceuil{
-        margin-top: 70px;
+        margin-top: 60px;
         
     }
     .p-accueil{

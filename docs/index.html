@@ -560,7 +560,7 @@
 
       <div class="container-body-contact">
         <div class="container-form-contact">
-          <form action="#" method="post">
+          <form id="contact-form" action="#" method="post">
             <div class="element-form">
               <div class="form1">
                 <input
@@ -569,31 +569,11 @@
                   placeholder="Nom"
                   required
                 /><br /><br />
-                <input
-                  type="name"
-                  id="name"
-                  placeholder="Post-nom"
-                  pattern="[0-9]{10}"
-                  required
-                /><br /><br />
+                
               </div>
               <br />
 
-              <div class="form1">
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="Prénom"
-                  required
-                /><br /><br />
-                <input
-                  type="tel"
-                  id="phone"
-                  placeholder="Téléphone"
-                  pattern="[0-9]{10}"
-                  required
-                /><br /><br />
-              </div>
+              
               <br />
 
               <div class="form1">
@@ -665,6 +645,24 @@
       <p>&copy;copyright GHOST 2025. Tous droit réservés.</p>
     </footer>
   </body>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("HoCwaOeA3AdjnHrZZ"); // remplace par ton vrai user ID EmailJS
+  })();
+
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm("service_humaide", "template_5njli4f", this)
+      .then(function() {
+        alert("Message envoyé !");
+      }, function(error) {
+        alert("Erreur : " + error.text);
+      });
+  });
+</script>
+
 </html>
 
 <!-- -->

@@ -796,7 +796,6 @@ footer{
     .p-accueil{
         margin-top: 70px;
     }
-
     .container-hero h6{
         font-size: 15px;
         font-weight: 1;
@@ -812,11 +811,9 @@ footer{
         align-items: center;
         justify-content: center;
     }
-
     .box-cause{
         flex-direction: column;
     }
-
     .gallerie{
        margin: 10px;
     }
@@ -842,7 +839,6 @@ footer{
     .publicite div img{
         width: 70px;
     }
-
     .nouvelle{
         margin: 50px;
     }
@@ -866,28 +862,19 @@ footer{
     }
 
     .container-body-contact .container-form-contact{
-        width: 100%;
-        
+        width: 100%; 
     }
     .container-body-contact .container-info-contact{
         width: 100%;
     }
-
     .form1 {
         display: block;
-
     }
-    
    .form1 input{
-        width: 400px;
+        width: 300px;
         margin-top: 30px;
-
    }
-
    .container-info-contact{
     margin-top: 30px;
-    
    }
-   
-   
 }

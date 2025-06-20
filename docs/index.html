@@ -11,26 +11,24 @@
     <title>HumAid</title>
   </head>
   <body class="acceuil">
-    <header>
-      <div class="logo">Humai<span>Aid</span></div>
-      
-      <nav class="nav-bar">
-        <ul class="menu-nav">
-          <!-- les éléments d'une liste de menu des navigation du site dans la liste desordoner  -->
-          <li class="acceuil">ACCUEIL</li>
-          <li class="Apropos"><a href="#apropos">APROPOS</a></li>
-          <li class="Service"><a href="#service">SERVICES</a></li>
-          <li class="Causes"><a href="#cause">CAUSES</a></li>
-          <li class="Gallerie"><a href="#gallerie">GALLERIE</a></li>
-          <li class="Evenement"><a href="#evenemet">EVENEMENT</a></li>
-          <li class="Actualite"><a href="#actualite">ACTUALITE</a></li>
-          <li class="Contact"><a href="#contact">CONTACT</a></li>
-        </ul>
-      </nav>
-      <div class="menu-casher">
-        <button>menu</button>
-      </div>
-    </header>
+     <header>
+    <div class="logo">Hum<span>Aid</span></div>
+
+    <div class="menu-casher">
+      <button id="menu-toggle">&#9776;</button>
+    </div>
+
+    <nav class="nav-bar">
+      <ul class="menu-nav">
+        <li><a href="#" class="acceuil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#cause">Causes</a></li>
+        <li><a href="#evenement">Événements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
     <section class="hero">
       <div class="container-hero">
         <h1 class="slogan-acceuil">
@@ -646,22 +644,35 @@
     </footer>
   </body>
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-  (function() {
-    emailjs.init("HoCwaOeA3AdjnHrZZ"); // remplace par ton vrai user ID EmailJS
-  })();
+  <script>
+    (function() {
+      emailjs.init("HoCwaOeA3AdjnHrZZ"); // remplace par ton vrai user ID EmailJS
+    })();
 
-  document.getElementById("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault();
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
 
-    emailjs.sendForm("service_humaide", "template_5njli4f", this)
-      .then(function() {
-        alert("Message envoyé !");
-      }, function(error) {
-        alert("Erreur : " + error.text);
+      emailjs.sendForm("service_humaide", "template_5njli4f", this)
+        .then(function() {
+          alert("Message envoyé !");
+        }, function(error) {
+          alert("Erreur : " + error.text);
+        });
+    });
+  </script>
+
+
+  <script defer>
+    // JavaScript pour le menu responsive
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuButton = document.querySelector('#menu-toggle');
+      const navBar = document.querySelector('.nav-bar');
+
+      menuButton.addEventListener('click', () => {
+        navBar.classList.toggle('nav-bar-active');
       });
-  });
-</script>
+    });
+  </script>
 
 </html>
 

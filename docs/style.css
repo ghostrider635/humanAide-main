@@ -76,7 +76,6 @@ ul .acceuil {
   font-weight: bold;
 }
 
-
 /* MENU MOBILE ACTIVÉ */
 .nav-bar.nav-bar-active .menu-nav {
     display: flex;
@@ -103,6 +102,7 @@ ul .acceuil {
 .nav-bar.nav-bar-active .menu-nav li a:hover {
     color: orange;
 }
+
 .hero{
     background-image: url(image/pexels-ahmed-akacha-3313934-9993429.jpg);
     background-repeat: no-repeat;
@@ -680,7 +680,7 @@ li .don{
 
 .container-body-contact{
     display: flex; 
-    margin-top: 80px;   
+    margin-top: 70px;   
 
 }
 
@@ -692,25 +692,23 @@ li .don{
     
 }
 
+
+
 form{
+    width:  80%;
     height: 100%;
     flex-wrap: wrap;
 }
 
 
-.form1{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
 
 .form1 input{
-    width: 40%;
+    width: 100%;
     border: none;
     border-bottom:   1px solid #080808;
 }
 .form1 textarea{
-    width: 40%;
+    width: 100%;
     border:  none;
     border-bottom: 1px solid #000000;
     resize: none;
@@ -787,15 +785,7 @@ footer{
     display: flex;
   }
 
-  .hero {
-    display: none;
-  }
-
-  .hero2 {
-    display: flex;
-  }
-
-  .container-hero {
+    .container-hero {
     flex-direction: column;
     align-items: center;
     margin: 10px;
@@ -840,17 +830,37 @@ footer{
     width: 100%;
   }
 
+  .nouvelle {
+    margin: 20px;
+  }
+
   .contact {
     margin: 30px;
+    
+  }
+
+  .container-body-contact {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+    .container-form-contact {
+        width: 100%;
+        justify-content: center;
+    }
+
+  .container-info-contact {
+    width: 80%;
   }
 
   .form1 {
     display: block;
+    width: 100%;
   }
 
   .form1 input {
-    width: 300px;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 20px;
   }
 
   .container-info-contact {
@@ -859,20 +869,4 @@ footer{
 }
 
 /* MEDIA QUERY POUR GRAND ÉCRAN */
-@media (min-width: 901px) {
-  .menu-nav {
-    display: flex !important;
-  }
 
-  .menu-casher {
-    display: none !important;
-  }
-
-  .nav-bar {
-    display: flex !important;
-    position: static;
-    flex-direction: row;
-    background: transparent;
-    width: auto;
-  }
-}

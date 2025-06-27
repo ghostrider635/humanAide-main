@@ -726,6 +726,8 @@ form{
     margin-top: 10px;
     list-style: none;
     margin-top: 5px;
+    display: flex;
+    gap: 20px;
 }
 .social-media-links li{
     margin-top: 10px;
@@ -734,13 +736,11 @@ form{
     text-decoration: none;
     color: black;
 }
+.social-media-links a i {
+    font-size: 24px;
+}
 .social-media-links a:hover{
     color: orange;
-}
-
-.social-media-links a img{
-    width: 40px;
-    height: 40px;
 }
 
 .info-adresse{

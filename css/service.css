@@ -61,7 +61,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 30px;
 
 }
 
@@ -193,6 +193,8 @@ form{
     margin-top: 10px;
     list-style: none;
     margin-top: 5px;
+    display: flex;
+    gap: 20px;
 }
 .social-media-links li{
     margin-top: 10px;
@@ -205,10 +207,12 @@ form{
     color: orange;
 }
 
-.social-media-links a img{
-    width: 40px;
-    height: 40px;
+.social-media-links a i{
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
 }
+
+
 
 .info-adresse{
     margin-top: 20px;
@@ -227,6 +231,7 @@ footer{
 @media (max-width: 900px){
     .service-section{
         width: 100%;
+
     }
 
     .contact {

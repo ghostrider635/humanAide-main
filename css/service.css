@@ -43,8 +43,24 @@ header h1 span{
 }
 
 .btn{
-    width: 150px;
+    width: 100px;
     background-color: #ffc107;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: rgb(238, 232, 232);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.btn:hover{
+    background-color: #e0a800;
+    transition: background-color 0.3s ease;
 }
 
 

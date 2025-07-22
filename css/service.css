@@ -1,291 +1,283 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-header{
-    background-image: url(../docs/image/pexels-ahmed-akacha-3313934-9993429.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-    padding: 20px;
-    text-align: center;
+header {
+  background-image: url(../docs/image/pexels-ahmed-akacha-3313934-9993429.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  padding: 20px;
+  text-align: center;
 }
 
-header h1{
-    color: white;
-    font-size: xxx-large;
+header h1 {
+  color: white;
+  font-size: xxx-large;
 }
 
-header h1 span{
-    color: orange;
+header h1 span {
+  color: orange;
 }
 
-
-.service-hero{
-    
-    width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(250, 247, 247);
-    
+.service-hero {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(250, 247, 247);
 }
- .container-hero{
-    
-    align-items: center;
- }
-.container-hero h1{
-    font-size: xx-large;
-    margin-bottom: 20px;
+.container-hero {
+  align-items: center;
+}
+.container-hero h1 {
+  font-size: xx-large;
+  margin-bottom: 20px;
 }
 
-.btn{
-    width: 100px;
-    background-color: #ffc107;
-    border-radius: 20px;
-    height: 40px;
+.btn {
+  width: 100px;
+  background-color: #ffc107;
+  border-radius: 20px;
+  height: 40px;
 }
 
-.btn a{
-    text-decoration: none;
-    color: rgb(238, 232, 232);
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.btn a {
+  text-decoration: none;
+  color: rgb(238, 232, 232);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-.btn:hover{
-    background-color: #e0a800;
-    transition: background-color 0.3s ease;
-}
-
-
-main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #fcf1e2;
+.btn:hover {
+  background-color: #e0a800;
+  transition: background-color 0.3s ease;
 }
 
-.container-section{
-    width: 90%;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fcf1e2;
 }
 
-.service-section{
-    width: 40%;
-    border: 3px solid rgba(201, 176, 153, 0.986);
-    border-radius: 50px;
-    background-color: white;
-    box-shadow: 0 0 5px rgb(223, 116, 45);
+.container-section {
+  width: 97%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 
-.container{
-    width: 100%;
+.service-section {
+  width: 40%;
+  border: 3px solid rgba(201, 176, 153, 0.986);
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(223, 116, 45);
 }
 
-.service-card{
-    width: 100%;
-    text-align: center;
+.container {
+  width: 100%;
+}
+
+.service-card {
+  width: 100%;
+  text-align: center;
 }
 
 .service-content {
-    text-align: center;
-
+  text-align: center;
 }
 
 .service-card ul {
-    list-style: none;
+  list-style: none;
 }
 
-.container-header-apropos{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-    flex-wrap: wrap;
+.container-header-apropos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.container-header-apropos h2{
-    font-weight: bold;
-    font-size: 2.5rem;
-
+.container-header-apropos h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
 }
-.trait{
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-    color: orange; 
-    display: flex;
-    align-items: center;   
+.trait {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  color: orange;
+  display: flex;
+  align-items: center;
 }
-.texte-apropos{
-    color: rgb(87, 85, 85);
-    font-size: 1.1em;
-    display:flex;
-    align-items: center;
-    
+.texte-apropos {
+  color: rgb(87, 85, 85);
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
 }
 
 .contact {
-    margin-bottom: 10px;
-    margin-top: 50px;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
-.container-body-contact{
-    display: flex; 
-    margin-top: 70px;   
-
+.container-body-contact {
+  display: flex;
+  margin-top: 70px;
 }
 
-.container-form-contact{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.container-form-contact {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-form{
-    width:  95%;
-    height: 100%;
-    flex-wrap: wrap;
+form {
+  width: 95%;
+  height: 100%;
+  flex-wrap: wrap;
 }
 
-
-
-.form1 input{
-    width: 100%;
-    border: none;
-    border-bottom:   1px solid #080808;
+.form1 input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #080808;
 }
-.form1 textarea{
-    width: 100%;
-    border:  none;
-    border-bottom: 1px solid #000000;
-    resize: none;
-    overflow: auto;
-    
+.form1 textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000000;
+  resize: none;
+  overflow: auto;
 }
 
-.form2{
-    width: 100%;
+.form2 {
+  width: 100%;
 }
-.form2 button{
-    width: 100%;
-    height: 5vh;
-    border: none;
-    box-shadow: 0 0 7px rgb(255, 165, 0);
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #ffc107;
-    transition: background-color 0.3s ease;
-    margin-top: 50px;
+.form2 button {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  box-shadow: 0 0 7px rgb(255, 165, 0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffc107;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
 }
-.container-info-contact{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    
+
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  display: none;
+}
+
+.status-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  display: block;
+}
+
+.status-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  display: block;
+}
+.container-info-contact {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 .info-social-media p {
-    margin-top: 15px;
-    
+  margin-top: 15px;
 }
 
-.social-media-links{
-    margin-top: 10px;
-    list-style: none;
-    margin-top: 5px;
-    display: flex;
-    gap: 20px;
+.social-media-links {
+  margin-top: 10px;
+  list-style: none;
+  margin-top: 5px;
+  display: flex;
+  gap: 20px;
 }
-.social-media-links li{
-    margin-top: 10px;
+.social-media-links li {
+  margin-top: 10px;
 }
-.social-media-links a{
-    text-decoration: none;
-    color: black;
+.social-media-links a {
+  text-decoration: none;
+  color: black;
 }
-.social-media-links a:hover{
-    color: orange;
-}
-
-.social-media-links a i{
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
+.social-media-links a:hover {
+  color: orange;
 }
 
-
-
-.info-adresse{
-    margin-top: 20px;
+.social-media-links a i {
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
 }
 
-footer{
-    text-shadow: 0 0 5px rgb(226, 195, 138);
-    margin-top: 100px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.info-adresse {
+  margin-top: 20px;
 }
 
+footer {
+  text-shadow: 0 0 5px rgb(226, 195, 138);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media (max-width: 900px){
-    .service-section{
-        width: 100%;
+@media (max-width: 900px) {
+  .service-section {
+    width: 100%;
+  }
 
-    }
-
-    .contact {
+  .contact {
     margin: 30px;
-    
-    }
+  }
 
-    .container-body-contact {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .container-form-contact {
-        width: 100%;
-        justify-content: center;
-    }
+  .container-body-contact {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-form-contact {
+    width: 100%;
+    justify-content: center;
+  }
 
-    .container-info-contact {
-        width: 95%;
-    }
+  .container-info-contact {
+    width: 95%;
+  }
 
-    .form1 {
-        display: block;
-        width: 100%;
-    }
+  .form1 {
+    display: block;
+    width: 100%;
+  }
 
-    .form1 input {
-        width: 100%;
-        margin-top: 10px;
-    }
+  .form1 input {
+    width: 100%;
+    margin-top: 10px;
+  }
 
-    .container-info-contact {
-        margin-top: 20px;
-    }
+  .container-info-contact {
+    margin-top: 20px;
+  }
 }
-
-
-
-
-
-

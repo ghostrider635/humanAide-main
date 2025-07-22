@@ -8,8 +8,14 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/v4-shims.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/v4-shims.min.css"
+    />
     <title>HumAid</title>
   </head>
   <body class="acceuil">
@@ -24,7 +30,7 @@
         <ul class="menu-nav">
           <li><a href="#" class="acceuil">Accueil</a></li>
           <li><a href="#apropos">Àpropos</a></li>
-          <li><a href="hmtl/service.html">Services</a></li>
+          <li><a href="html/service.html">Services</a></li>
           <li><a href="#cause">Causes</a></li>
           <li><a href="#evenement">Événements</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -33,21 +39,19 @@
     </header>
     <section class="hero">
       <div class="container-hero">
-        <h1 class="slogan-acceuil">
-          SOLIDARITE. <span>ESPOIR</span> .PARTAGE
-        </h1>
+        <h1 class="slogan-acceuil">SOLIDARITE. <span>ESPOIR</span> .PARTAGE</h1>
 
-        <p class="p-accueil">
-          ENSEMBLE POUR L'AVENIR DES ENFANTS DÉMUNIS
-        </p>
-        <h6>Chaque enfant mérite d'être aimé, protégé et d'avoir accès à l'éducation. Notre mission est d'offrir un avenir meilleur aux orphelins.</h6>
+        <p class="p-accueil">ENSEMBLE POUR L'AVENIR DES ENFANTS DÉMUNIS</p>
+        <h6>
+          Chaque enfant mérite d'être aimé, protégé et d'avoir accès à
+          l'éducation. Notre mission est d'offrir un avenir meilleur aux
+          orphelins.
+        </h6>
 
         <div class="container-bouton-acceuil">
           <ul>
             <li>
-              <a href="hmtl/donation.html" class="don"
-                >FAIRE UN DON </a
-              >
+              <a href="html/donation.html" class="don">FAIRE UN DON </a>
             </li>
             <li class="li-info">
               <a href="#apropos" class="info">PLUS D'INFO</a>
@@ -61,21 +65,36 @@
       <div class="container-bannier-don">
         <i class="material-icons icon">paid</i>
         <p>Faire un don maintenant</p>
-        <p>Votre générosité change des vies. Chaque contribution compte pour offrir un avenir meilleur aux orphelins.</p>
-        <a href="hmtl/donation.html">Faire un don</a> <!-- Changé "Voir plus" en "Faire un don" pour plus de clarté -->
+        <p>
+          Votre générosité change des vies. Chaque contribution compte pour
+          offrir un avenir meilleur aux orphelins.
+        </p>
+        <a href="html/donation.html">Faire un don</a>
       </div>
 
       <div class="container-bannier-don">
         <i class="material-icons icon">groups</i>
         <p>Devenir membre</p>
-        <p>Rejoignez notre communauté bienveillante et participez activement à notre mission humanitaire.</p>
-        <a href="https://wa.me/[votre-numéro-de-téléphone]" target="_blank">Nous contacter</a> <!-- Lien WhatsApp pour rejoindre -->
+        <p>
+          Rejoignez notre communauté bienveillante et participez activement à
+          notre mission humanitaire.
+        </p>
+        <a href="https://chat.whatsapp.com/Jq1RlJCK0IQ2I9xmKP1XWZ" target="_blank"
+          >Rejoindre notre groupe WhatsApp</a
+        >
+
+        <!-- Lien WhatsApp pour rejoindre -->
       </div>
       <div class="container-bannier-don">
         <i class="material-icons icon">volunteer_activism</i>
         <p>Devenir bénévole</p>
-        <p>Partagez votre temps et vos compétences pour aider les enfants dans le besoin. Ensemble, nous pouvons faire la différence.</p>
-        <a href="https://wa.me/[votre-numéro-de-téléphone]" target="_blank">Nous contacter</a> <!-- Lien WhatsApp pour devenir bénévole -->
+        <p>
+          Partagez votre temps et vos compétences pour aider les enfants dans le
+          besoin. Ensemble, nous pouvons faire la différence.
+        </p>
+        <a href="https://wa.me/0824218849" target="_blank">Nous contacter</a>
+        <!-- Lien WhatsApp pour devenir bénévole -->
+      </div>
     </section>
 
     <section id="apropos" class="apropos">
@@ -83,62 +102,72 @@
         <h1>A PROPOS DE NOUS</h1>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Notre association s'engage pour offrir un avenir meilleur aux enfants orphelins. 
-          Par nos actions concrètes, nous redonnons espoir et dignité à ceux qui en ont le plus besoin.
+          Notre association s'engage pour offrir un avenir meilleur aux enfants
+          orphelins. Par nos actions concrètes, nous redonnons espoir et dignité
+          à ceux qui en ont le plus besoin.
         </p>
       </div>
 
       <div class="container-body-apropos">
         <div>
           <div class="accordion">
-            <div class="accordion-header" onclick="toggleAccordion()">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
               <span>NOTRE FONDATEUR</span>
-              <span id="accordion-icon">+</span>
+              <span class="accordion-icon">+</span>
             </div>
-            <div class="accordion-content" id="accordion-content1">
+            <div class="accordion-content">
               <p>
-                Notre association a été fondée par Waseka kibalikwa ARON, étudiant a l'université protestante de Kinshasa du congo (UPC), 
-                dédieé à la protection de l'enfance. Son expérience de 2 ans dans l'obeservation des jeunes en difficulté a inspiré la création de cette 
-                organisation humanitaire.
+                Notre association a été fondée par Waseka Kibalikwa ARON,
+                étudiant à l'Université Protestante de Kinshasa du Congo (UPC),
+                dédiée à la protection de l'enfance. Son expérience de 2 ans
+                dans l'observation des jeunes en difficulté a inspiré la
+                création de cette organisation humanitaire.
               </p>
             </div>
           </div>
 
           <div class="accordion">
-            <div class="accordion-header" onclick="toggleAccordion()">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
               <span>NOTRE VISION ET MISSION</span>
-              <span id="accordion-icon">+</span>
+              <span class="accordion-icon">+</span>
             </div>
-            <div class="accordion-content" id="accordion-content2">
+            <div class="accordion-content">
               <p>
-                <strong>Vision :</strong> Un monde où chaque orphelin a accès à l'amour, 
-                à l'éducation et à des opportunités pour construire son avenir.<br><br>
-                <strong>Mission :</strong> Fournir un logement sécurisé, une éducation 
-                de qualité et un accompagnement psychologique aux enfants privés 
-                de famille, tout en œuvrant pour leur intégration sociale.
+                <strong>Vision :</strong> Un monde où chaque orphelin a accès à
+                l'amour, à l'éducation et à des opportunités pour construire son
+                avenir.<br /><br />
+                <strong>Mission :</strong> Fournir un logement sécurisé, une
+                éducation de qualité et un accompagnement psychologique aux
+                enfants privés de famille, tout en œuvrant pour leur intégration
+                sociale.
               </p>
             </div>
           </div>
 
           <div class="accordion">
-            <div class="accordion-header" onclick="toggleAccordion()">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
               <span>QUI SOMMES-NOUS ?</span>
-              <span id="accordion-icon">+</span>
+              <span class="accordion-icon">+</span>
             </div>
-            <div class="accordion-content" id="accordion-content3">
+            <div class="accordion-content">
               <p>
-                Nous sommes une équipe de professionnels (éducateurs, psychologues, jeunes engagés) 
-                et de bénévoles engagés. Actifs
-                <br><br>
-                Notre action s'appuie sur des valeurs fortes : respect, transparence, 
-                et engagement durable envers chaque enfant.
+                Nous sommes une équipe de professionnels (éducateurs,
+                psychologues, jeunes engagés) et de bénévoles. <br /><br />
+                Notre action s'appuie sur des valeurs fortes : respect,
+                transparence, et engagement durable envers chaque enfant.
               </p>
             </div>
           </div>
         </div>
         <div class="video-apropos">
           <!-- Remplacez par une vidéo de présentation de votre association -->
-          <video controls src="docs/video/" poster="images/miniature-video.jpg"></video>
+          <video
+            controls
+            autoplay
+            src="/docs/video/video_enfant.mp4"
+            width="100%"
+            height="250"
+          ></video>
         </div>
       </div>
     </section>
@@ -148,8 +177,9 @@
         <h2>NOS SERVICES</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Nous offrons une gamme complète de services pour répondre aux besoins essentiels des enfants orphelins 
-          et leur permettre de grandir dans de bonnes conditions.
+          Nous offrons une gamme complète de services pour répondre aux besoins
+          essentiels des enfants orphelins et leur permettre de grandir dans de
+          bonnes conditions.
         </p>
       </div>
 
@@ -158,22 +188,30 @@
           <div>
             <i class="material-icons icon">volunteer_activism</i>
             <p>PARRAINAGE D'ENFANTS</p>
-            <p>Soutien personnalisé pour offrir éducation et suivi psychologique à chaque enfant</p>
-            <a href="hmtl/service.html">Devenir parrain</a>
+            <p>
+              Soutien personnalisé pour offrir éducation et suivi psychologique
+              à chaque enfant
+            </p>
+            <a href="html/service.html">Devenir parrain</a>
           </div>
 
           <div>
             <i class="material-icons icon">food_bank</i>
             <p>ALIMENTATION NUTRITIVE</p>
-            <p>Repas équilibrés quotidiens et programmes de lutte contre la malnutrition</p>
-            <a href="hmtl/service.html">Soutenir ce programme</a>
+            <p>
+              Repas équilibrés quotidiens et programmes de lutte contre la
+              malnutrition
+            </p>
+            <a href="html/service.html">Soutenir ce programme</a>
           </div>
 
           <div>
             <i class="material-icons icon">health_and_safety</i>
             <p>SOINS MÉDICAUX</p>
-            <p>Consultations gratuites, vaccinations et suivi médical régulier</p>
-            <a href="hmtl/service.html">Faire un don médical</a>
+            <p>
+              Consultations gratuites, vaccinations et suivi médical régulier
+            </p>
+            <a href="html/service.html">Faire un don médical</a>
           </div>
         </div>
 
@@ -182,43 +220,30 @@
             <i class="material-icons icon">school</i>
             <p>ÉDUCATION GRATUITE</p>
             <p>Programmes scolaires et formations professionnelles adaptées</p>
-            <a href="hmtl/service.html">Soutenir l'éducation</a>
-          </div>
-
-          <div>
-            <i class="material-icons icon">bloodtype</i>
-            <p>CAMPAGNES DE SANTÉ</p>
-            <p>Collectes de sang, sensibilisation et prévention sanitaire</p>
-            <a href="hmtl/service.html">Participer</a>
-          </div>
-
-          <div>
-            <i class="material-icons icon">real_estate_agent</i>
-            <p>LOGEMENT SÉCURISÉ</p>
-            <p>Foyers d'accueil chaleureux et environnements protecteurs</p>
-            <a href="hmtl/service.html">Contribuer</a>
+            <a href="html/service.html">Soutenir l'éducation</a>
           </div>
         </div>
       </div>
     </section>
 
     <section id="baniere-aide" class="baniere-aide">
-      <h2>HELP POOP PEOPLE ET GIVE DONATION</h2>
-
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-      <p>accusantium doloremque laudantium, totam rem aperiam, eaque</p>
-      <p>ipsa quae ab illo inventore veritatis et quasi.</p>
-      <a href="hmtl/donation.html"><button>FAIRE UN DON</button></a>
+      <h2>HumAid : Ensemble, changeons les choses</h2>
+      <p>
+        Participez à une cause humaine et solidaire pour offrir un avenir
+        meilleur aux enfants vulnérables.
+      </p>
+      <p>Rejoignez notre mouvement et devenez acteur du changement.</p>
+      <a href="html/donation.html"><button>FAIRE UN DON</button></a>
     </section>
 
     <section id="cause" class="cause">
       <div class="container-header-apropos">
-        <h2>cause</h2>
+        <h2>Nos Causes</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser unt architecto natus rerum alias quasi
-          quisquam
+          Chez HumAid, nous œuvrons chaque jour pour offrir un avenir digne aux
+          orphelins et aux personnes les plus vulnérables. Ensemble, nous
+          pouvons changer des vies.
         </p>
       </div>
 
@@ -226,179 +251,194 @@
         <div class="donation-section">
           <img
             src="docs/image/full-shot-african-boy-outdoors.jpg"
-            alt="Image de donation"
+            alt="Enfant africain"
             class="donation-image"
           />
 
           <p class="donation-text">
-            Aidons ensemble à atteindre notre objectif !
+            Aidons ensemble à atteindre notre objectif de 10 000 $ pour nourrir,
+            soigner et éduquer.
           </p>
 
           <div class="progress-container">
             <div class="progress-bar">
-              <div class="progress-fill"></div>
+              <div class="progress-fill" style="width: 30%"></div>
+              <!-- tu peux ajuster le % -->
             </div>
             <div class="progress-info">
-              <span>0 $</span>
-              <span>10000 $</span>
+              <span>3 000 $</span>
+              <span>10 000 $</span>
             </div>
-            <a href="hmtl/donation.html"
-              ><button class="donate-button">DONATE NOW</button></a
-            >
+            <a href="html/donation.html">
+              <button class="donate-button">FAIRE UN DON</button>
+            </a>
           </div>
-        </div>
-
-
-        
         </div>
       </div>
     </section>
 
-    <section id="gallerie" class="gallerie">
+    <section id="galerie" class="galerie">
       <div class="container-header-apropos">
-        <h2>Gallerie</h2>
+        <h2>Galerie</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser unt architecto natus rerum alias quasi
-          quisquam
+          Découvrez en images l’impact de vos dons et les sourires que vous
+          aidez à faire naître grâce à HumAid.
         </p>
       </div>
 
       <div class="container-slider">
         <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
         </div>
-
         <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
         </div>
-
         <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
         </div>
       </div>
+
       <div class="container-liens">
         <div class="box-liens">
-          <a href="hmtl/gallerie.html">voir plus</a>
+          <a href="html/gallerie.html">Voir plus</a>
         </div>
       </div>
-      <div class="container-slider">
-        <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
-        </div>
 
+      <div class="container-slider second">
         <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
         </div>
-
         <div class="container-photo1">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
         </div>
-      </div>
+        <div class="container-photo1">
+          <img
+            src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg"
+            alt="Portrait d'enfant heureux"
+          />
+        </div>
       </div>
     </section>
 
     <section class="notre-equipe">
       <div class="container-header-apropos">
-        <h2>Equipe</h2>
+        <h2>Notre Équipe</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser unt architecto natus rerum alias quasi
-          quisquam
+          Derrière HumAid, une équipe passionnée et engagée œuvre chaque jour
+          pour faire avancer la solidarité et offrir un avenir meilleur aux plus
+          démunis.
         </p>
       </div>
 
       <div class="box-cause">
         <div class="donation-section">
           <img
-            src="docs/image/children-s-day-celebration-with-cute-kid-portrait (1).jpg"
-            alt="Image de donation"
+            src="docs/image/anonyme.jpg"
+            alt="Photo de Aron"
             class="donation-image team"
           />
-          <p class="nom">WASEKA KIBALIKWA Aron</p>
-          <p class="poste">PDG</p>
+          <div class="team-info">
+            <p class="nom">WASEKA KIBALIKWA Aron</p>
+            <p class="poste">Président Fondateur</p>
+          </div>
         </div>
 
         <div class="donation-section">
           <img
-            src="docs/image/children-s-day-celebration-with-cute-kid-portrait (1).jpg"
-            alt="Image de donation"
+            src="docs/image/anonyme.jpg"
+            alt="Photo de membre"
             class="donation-image team"
           />
-          <p class="nom">WASEKA KIBALIKWA Aron</p>
-          <p class="poste">PDG</p>
+          <div class="team-info">
+            <p class="nom">marianah ngoy</p>
+            <p class="poste">Sécrétaire Générale</p>
+          </div>
         </div>
 
         <div class="donation-section">
           <img
-            src="docs/image/children-s-day-celebration-with-cute-kid-portrait (1).jpg"
-            alt="Image de donation"
+            src="docs/image/anonyme.jpg"
+            alt="Photo de membre"
             class="donation-image team"
           />
-          <p class="nom">WASEKA KIBALIKWA Aron</p>
-          <p class="poste">PDG</p>
+          <div class="team-info">
+            <p class="nom">Dan beze</p>
+            <p class="poste">Coordinateur des projets</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="evenemet" class="evenement">
+    <section id="evenement" class="evenement">
       <div class="container-header-apropos">
-        <h2 class="evenement-titre">Evénément</h2>
+        <h2 class="evenement-titre">Nos Événements</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser unt architecto natus rerum alias quasi
-          quisquam
+          HumAid organise régulièrement des actions sur le terrain pour soutenir
+          les orphelins et les familles vulnérables. Participez à nos événements
+          pour faire la différence avec nous.
         </p>
       </div>
 
       <div class="container-element-evenement">
+        <!-- Événement 1 -->
         <div class="element1">
           <div class="info-evenemet">
-            <h1>CONSTRUIRE UNE ECOLE POUR LES ENFANTS</h1>
+            <h3>Construire une école pour les enfants</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-              quod molestias ullam quibXCLKNKCNLKSNCKNKNWCNKSCBXBCNKN NCXCBCNC
+              Ce projet vise à offrir un cadre d'apprentissage sûr et adapté aux
+              enfants défavorisés. Ensemble, bâtissons l'espoir et l'éducation
+              de demain.
             </p>
             <div class="calendrier-evenemet">
               <p>
-                <span>🗓</span>
-                11 décembre 2025
+                <span>🗓</span> 11 décembre 2025
                 <span class="trait-evenement">|</span>
-                <span>🌐</span>
-                Congo-kinshasa
+                <span>🌐</span> Kinshasa, RDC
               </p>
             </div>
-            <div class="btn">
-              <button class="btn1">
-                <a href=""> Rejoignez-nous maintenant</a>
-              </button>
+            <div class="btn1">
+             <a href="https://chat.whatsapp.com/Jq1RlJCK0IQ2I9xmKP1XWZ" target="_blank">Rejoindre notre groupe WhatsApp</a>
             </div>
           </div>
         </div>
 
+        <!-- Événement 2 -->
         <div class="element1">
           <div class="info-evenemet">
-            <h1>CONSTRUIRE UNE ECOLE POUR LES ENFANTS</h1>
+            <h3>Distribution de kits scolaires</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
-              quod molestias ullam quibXCLKNKCNLKSNCKNKNWCNKSCBXBCNKN NCXCBCNC
+              HumAid organise une journée de solidarité pour offrir des
+              fournitures scolaires aux enfants orphelins afin de préparer la
+              rentrée dans la dignité.
             </p>
             <div class="calendrier-evenemet">
               <p>
-                <span>🗓</span>
-                11 décembre 2025
+                <span>🗓</span> 22 janvier 2026
                 <span class="trait-evenement">|</span>
-                <span>🌐</span>
-                Congo-kinshasa
+                <span>🌐</span> Goma, RDC
               </p>
             </div>
-            <div class="btn">
-              <button class="btn1">
-                <a href=""> Rejoignez-nous maintenant</a>
-              </button>
+            <div class="btn1">
+              <a href="https://chat.whatsapp.com/Jq1RlJCK0IQ2I9xmKP1XWZ" target="_blank">Rejoindre notre groupe WhatsApp</a>
+
             </div>
           </div>
         </div>
@@ -421,77 +461,82 @@
       <div class="none">
         <img src="docs/logo_baniere/care.png" alt="" />
       </div>
-
-     
     </section>
 
     <section id="actualite" class="nouvelle">
       <div class="container-header-apropos">
-        <h2 class="titre-apropos">Actualité</h2>
+        <h2 class="titre-apropos">Actualités</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser
+          Suivez les dernières actions et informations de HumAid sur le terrain.
+          Restez informé de nos projets, interventions et campagnes en faveur
+          des plus démunis.
         </p>
       </div>
 
       <div class="container-nouvel">
+        <!-- ACTU 1 -->
         <div class="element1-nouvelle">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="" />
+          <img
+            src="docs/image/photo9.jpg"
+            alt="Enfant souriant lors d’un événement"
+          />
           <div class="info">
             <div class="date">
               <p>10</p>
-              <p>janvier</p>
+              <p>Janvier</p>
               <p>2025</p>
             </div>
             <div class="info2">
-              <h3>SAUVER LA VIE DES ENFANTS PAUVRES</h3>
-              <p>Administrateur du poste</p>
+              <h3>Sauver la vie des enfants vulnérables</h3>
+              <p>Par l'équipe HumAid</p>
             </div>
           </div>
-
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-            minima sapiente ipsa deserunt placeat laboriosam, alia temporibus
-            aliquid odit at dolores animi porro voluptates assumenda.
+            Lors de notre dernière campagne à Kinshasa, nous avons pu venir en
+            aide à plus de 100 enfants grâce à vos dons. Des repas, vêtements et
+            soins médicaux ont été distribués avec amour.
           </p>
         </div>
 
+        <!-- ACTU 2 -->
         <div class="element1-nouvelle">
-          <img src="docs/image/children-s-day-celebration-with-cute-kid-portrait.jpg" alt="" />
+          <img
+            src="./docs/image/photo7.jpg"
+            alt="Distribution de fournitures scolaires"
+          />
           <div class="info">
             <div class="date">
-              <p>10</p>
-              <p>janvier</p>
+              <p>15</p>
+              <p>Février</p>
               <p>2025</p>
             </div>
             <div class="info2">
-              <h3>SAUVER LA VIE DES ENFANTS PAUVRES</h3>
-              <p>Administrateur du poste</p>
+              <h3>Distribution de kits scolaires à Goma</h3>
+              <p>Par HumAid Goma</p>
             </div>
           </div>
-
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-            minima sapiente ipsa deserunt placeat laboriosam, alia temporibus
-            aliquid odit at dolores animi porro voluptates assumenda.
+            Grâce à la générosité de nos donateurs, nous avons pu équiper 150
+            enfants de kits scolaires complets. Ce geste essentiel leur
+            permettra de démarrer l’année avec dignité.
           </p>
         </div>
       </div>
     </section>
-    
+
     <section id="contact" class="contact">
       <div class="container-header-apropos">
         <h2 class="titre-apropos">Contact</h2>
         <p class="trait">|</p>
         <p class="texte-apropos">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
-          accusamus animi quae, deser unt architecto natus rerum alias quasi
-          quisquam
+          Vous souhaitez en savoir plus ou soutenir notre cause ? N’hésitez pas
+          à nous écrire. Notre équipe est à votre écoute.
         </p>
       </div>
 
       <div class="container-body-contact">
+        <!-- Formulaire de contact -->
         <div class="container-form-contact">
           <form id="contact-form" action="#" method="post">
             <div class="element-form">
@@ -499,71 +544,70 @@
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   placeholder="Nom"
                   required
-                /><br />
+                />
               </div>
-              <br />
 
               <div class="form1">
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   placeholder="E-mail"
                   required
-                /><br /><br />
+                />
               </div>
+
               <div class="form1">
-                <textarea id="message" placeholder="Message" rows="4" required ></textarea> <br/>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  rows="4"
+                  required
+                ></textarea>
               </div>
             </div>
-            <div class="form2"> 
+
+            <div class="form2">
               <button type="submit">Envoyer</button>
             </div>
-            
-          </form>
-        </div>    
 
+            <div id="status" class="status-message"></div>
+          </form>
+        </div>
+
+        <!-- Informations & Réseaux -->
         <div class="container-info-contact">
           <div class="sociaux-media">
+            <!-- Réseaux sociaux -->
             <div class="info-social-media">
               <h3>Nos réseaux sociaux</h3>
               <p>
-                Suivez-nous sur les réseaux sociaux pour rester informé de nos
-                dernières actualités et événements.
+                Suivez-nous pour rester informé de nos actions et événements en
+                faveur des plus démunis.
               </p>
               <ul class="social-media-links">
-               <li>
-                  <a href="">
-                    <i class="fab fa-facebook-f"> 
-                    </i>
-                  </a>
-                </li>
-
                 <li>
-                  <a href="">
-                    <i class="fab fa-whatsapp"> 
-                    </i>
-                  </a>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
                 </li>
-
                 <li>
-                  <a href="">
-                    <i class="fab fa-instagram"> 
-                    </i>
-                  </a>
+                  <a href="#"><i class="fab fa-whatsapp"></i></a>
                 </li>
-
                 <li>
-                  <a href="">
-                    <i class="fab fa-g"> 
-                    </i>
-                  </a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="mailto:contact@humaid.org"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
                 </li>
               </ul>
-              
             </div>
 
+            <!-- Adresse -->
             <div class="info-adresse">
               <h3>Adresse</h3>
               <p>123 Rue de l'Humanité, Kinshasa, RDC</p>
@@ -572,42 +616,100 @@
         </div>
       </div>
     </section>
-    
+
     <footer>
       <p>&copy;copyright GHOST 2025. Tous droit réservés.</p>
     </footer>
-  </body>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script>
-    (function() {
-      emailjs.init("HoCwaOeA3AdjnHrZZ"); // remplace par ton vrai user ID EmailJS
-    })();
 
-    document.getElementById("contact-form").addEventListener("submit", function(e) {
-      e.preventDefault();
+    <!-- À la fin du body, après le formulaire -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      // Initialisation
+      (function () {
+        emailjs.init("SozylxUEgKE7IeWZK");
+      })();
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
 
-      emailjs.sendForm("service_humaide", "template_5njli4f", this)
-        .then(function() {
-          alert("Message envoyé !");
-        }, function(error) {
-          alert("Erreur : " + error.text);
+          const status = document.getElementById("status");
+          status.classList.remove("success", "error");
+          status.textContent = "";
+
+          // Récupération des valeurs du formulaire
+          const formData = {
+            from_name: document.getElementById("name").value,
+            from_email: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+          };
+
+          // Envoi de l'email via EmailJS
+          emailjs.send("service_p8y4028", "template_lfoo2ht", formData).then(
+            function (response) {
+              console.log("SUCCESS!", response.status, response.text);
+              status.textContent = "Message envoyé avec succès!";
+              status.classList.add("success");
+              document.getElementById("contact-form").reset();
+            },
+            function (error) {
+              console.log("FAILED...", error);
+              status.textContent =
+                "Une erreur est survenue. Veuillez réessayer.";
+              status.classList.add("error");
+            }
+          );
         });
-    });
-  </script>
 
+      // Ajoutez cette fonction avant l'envoi
+      function validateForm(formData) {
+        if (!formData.from_name || !formData.from_email || !formData.message) {
+          return {
+            isValid: false,
+            message: "Tous les champs sont obligatoires",
+          };
+        }
+
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.from_email)) {
+          return { isValid: false, message: "Veuillez entrer un email valide" };
+        }
+
+        return { isValid: true };
+      }
+    </script>
+  </body>
 
   <script defer>
     // JavaScript pour le menu responsive
-    document.addEventListener('DOMContentLoaded', function () {
-      const menuButton = document.querySelector('#menu-toggle');
-      const navBar = document.querySelector('.nav-bar');
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuButton = document.querySelector("#menu-toggle");
+      const navBar = document.querySelector(".nav-bar");
 
-      menuButton.addEventListener('click', () => {
-        navBar.classList.toggle('nav-bar-active');
+      menuButton.addEventListener("click", () => {
+        navBar.classList.toggle("nav-bar-active");
       });
     });
   </script>
 
+  <script>
+    function toggleAccordion(clickedHeader) {
+      const accordions = document.querySelectorAll(".accordion");
+
+      accordions.forEach((accordion) => {
+        const content = accordion.querySelector(".accordion-content");
+        const icon = accordion.querySelector(".accordion-icon");
+
+        if (accordion.contains(clickedHeader)) {
+          const isOpen = content.style.display === "block";
+          content.style.display = isOpen ? "none" : "block";
+          icon.textContent = isOpen ? "+" : "−";
+        } else {
+          content.style.display = "none";
+          icon.textContent = "+";
+        }
+      });
+    }
+  </script>
 </html>
 
-<!-- -->
+<!---->
